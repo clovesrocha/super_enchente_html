@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>SuperEnchente Website</title>
+</head>
+<body>
+  <main>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        SpunkySoft
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#projects">Sobre Projeto</a>
+            <a href="#contact">Contato</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <!-- HOME -->
+    <section id="home">
+      <div class="home-info">
+        <h2>Conheça SUPER-ENCHENTE!</h2>
+        <span class="home-position">"Explore o grande Recife em Super-Enchente."</span>
+        <span class="home-resume">
+          Um envolvemente jogo de plataforma 2D. Supere desafios únicos
+          enquanto navega por paisagens inspiradoras. Descubre segredos e colete itens especiais para avançar.
+          Uma experiência que une cultura e natureza em uma jornada inesquecível"
+        </span>
+
+        <button>
+          <a href="#contact">Reservar</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="background.jpg.jpeg" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+      <h2>Sobre o Projeto</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="platformer.jpg" alt="Foto do site">
+            </div>
+            <div class="project-info">
+              <h2>O que é Super-Enchente?</h2>
+              <p>"Super-Enchente" é um jogo de plataforma 2D ambientado  no deslumbrante cenário do Recife.
+                Com influências leves de clássicos como Mario, a missão é desafiar o raciocínio rápido dos jogadores
+                enquanto se divertem ;]
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="background.jpg.jpeg" alt="Foto de uma exemplo">
+            </div>
+            <div class="project-info">
+              <h2>Equipe Responsavel:</h2>
+              <p>Conheça os talentosos criadores por trás de Super-Enchente:
+                Anthony Paulo, Gabriela Alvez, Lucas Henrique, Pytter Hugo, Rafael Felipe e Rodolfo Monteiro
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="2D-Skysaga-Video-Game-Storyboard-Illustration-1170x785.jpg" alt="Foto de um sistema">
+            </div>
+            <div class="project-info">
+              <h2>Objetivo por Trás de "Super-Enchente</h2>
+              <p>Nossa missão é unir diversão e aprendizado, celebrando o Recife e desafiando o raciocínio dos jogadores.
+                 Queremos inspirar uma apreciação mais profunda desta região única através de "Super-Enchente".</p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+    <h2>Entre em Contato</h2>
+    <form>
+      <input type="text" placeholder="Digite seu nome" />
+      <input type="email" placeholder="Digite seu e-mail" />
+      <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+      <button>Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    [UNINASSAU] Equipe de Desenvolvimento. Todos os direitos reservados
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
